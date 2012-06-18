@@ -13,8 +13,7 @@ ZSH_THEME_GIT_PROMPT_SUFFIX="%{%f%k%b%K{white}%B%F{green}%}]"
 ZSH_THEME_GIT_PROMPT_DIRTY=" %{%F{red}%}*%{%f%k%b%}"
 ZSH_THEME_GIT_PROMPT_CLEAN=""
 
-PROMPT='%{%f%k%b%}
-%{%K{white}%B%F{green}%}%n%{%B%F{blue}%}@%{%B%F{cyan}%}%m%{%B%F{green}%} %{%b%F{yellow}%K{white}%}%~%{%B%F{green}%}$(git_prompt_info)%E%{%f%k%b%}
+PROMPT='%{%f%k%b%}%{%K{white}%B%F{green}%}%n%{%B%F{blue}%}@%{%B%F{cyan}%}%m%{%B%F{green}%} %{%b%F{yellow}%K{white}%}%~%{%B%F{green}%}$(git_prompt_info)%E%{%f%k%b%}
 %{%K{white}%}$(_prompt_char)%{%K{white}%} \$%{%f%k%b%} '
 
 R=$fg[red]
